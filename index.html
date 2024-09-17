@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
+    />
+  </head>
+  <body>
+    <!-- üst kısım -->
+    <header>
+      <div class="logo">
+        <a href="/">
+          <img src="images/food-logo.png" />
+        </a>
+      </div>
+
+      <div class="form">
+        <form>
+          <input placeholder="pizza, bbq arayınız" type="search" />
+          <button>
+            <span>Ara</span>
+          </button>
+        </form>
+      </div>
+
+      <div class="bookmark">
+        <i class="bi bi-bookmark-heart-fill"></i>
+      </div>
+    </header>
+
+    <!-- ana içerik -->
+    <main>
+      <section id="results">
+        <a href="#" class="result-link">
+          <img
+            src="http://forkify-api.herokuapp.com/images/smashedchickpeaavocadosaladsandwich29c5b.jpg"
+          />
+          <div class="info">
+            <h4>Avokado Salata</h4>
+            <p>2 avakado 1 yumurta</p>
+          </div>
+        </a>
+      </section>
+
+      <section id="recipe">tarif detay</section>
+      <section id="cart">sepet</section>
+    </main>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/toastify-js"
+    ></script>
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
